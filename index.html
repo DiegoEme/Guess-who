@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="adivina.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Guess Who</title>
+  </head>
+  <body>
+    <h3>Score: <span id="score">0</span></h3>
+
+    <div id="grid">
+      <!--Carta -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="imagen" src="./img/cover.jpg" alt="abraham simpson" />
+          </div>
+          <div class="flip-card-back">
+            <img class="imagen" src="./img/abuelo.png" alt="abraham simpson" />
+          </div>
+        </div>
+      </div>
+
+      <!--Carta -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="imagen" src="./img/cover.jpg" alt="bart simpson" />
+          </div>
+          <div class="flip-card-back">
+            <img class="imagen" src="./img/bart.png" alt="bart simpson" />
+          </div>
+        </div>
+      </div>
+
+      <!--Carta -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="imagen" src="./img/cover.jpg" alt="montgomery burns" />
+          </div>
+          <div class="flip-card-back">
+            <img class="imagen" src="./img/burns.png" alt="montgomery burns" />
+          </div>
+        </div>
+      </div>
+
+      <!--Carta -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="imagen" src="./img/cover.jpg" alt="edna krabappel" />
+          </div>
+          <div class="flip-card-back">
+            <img class="imagen" src="./img/edna.png" alt="edna krabappel" />
+          </div>
+        </div>
+      </div>
+
+      <!--Carta -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="imagen" src="./img/cover.jpg" alt="ned flanders" />
+          </div>
+          <div class="flip-card-back">
+            <img class="imagen" src="./img/ned.png" alt="ned flanders" />
+          </div>
+        </div>
+      </div>
+
+      <!--Carta -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="imagen" src="./img/cover.jpg" alt="maude flanders" />
+          </div>
+          <div class="flip-card-back">
+            <img class="imagen" src="./img/maude.png" alt="maude flanders" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="texto">
+      <input id="input" type="text" />
+      <button id="enviar">GUESS</button>
+    </div>
+
+    <script src="adivina.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
